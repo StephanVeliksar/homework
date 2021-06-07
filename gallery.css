@@ -1,0 +1,42 @@
+.gallery {
+    width:var(--content-width);
+    margin: 100px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+div .gallery .gallery-content{
+    text-align: center;
+    margin: 0 auto;
+}
+ul.grid {
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+ul.grid:after{
+    content: none;
+    display:block;
+    width:100%;
+    clear:both;
+}
+ul.grid li {
+    display: block;
+    float:left;
+    width:25%;
+    height: 150px;
+    overflow:hidden;
+    margin: 30px 0;
+
+}
+nav ul li {
+    font-family: var(--font-family2);
+
+}
+ul.grid li img {
+    display:block;
+    max-width:100%;
+    height: auto;
+    margin:0 auto;
+}

@@ -1,0 +1,47 @@
+.uno .un {
+    width: var(--content-width);
+   color: #656363;
+    margin: 0 auto;
+    height: 2px;
+    background-color:var(--background-color);
+}
+.feature, .featured
+{
+    width: 500px;
+    text-align: center;
+    margin: 100px auto;
+    font-family: var(--font-family) ;
+
+}
+.feature .dou {
+    width: 200px;
+    text-align: center;
+    color: red;
+    border: none;
+    background-color: red;
+    height: 4px;
+}
+.products nav ul li a {
+
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+.products nav ul a:hover {
+    background-color: #ec0505;
+}
+.products nav ul li  {
+    font-size:15px;
+    display:inline-block;
+    text-align: center;
+     width: 15%;
+
+}
+.products {
+    width:var(--content-width);
+    text-align: center;
+    margin: 0 auto;
+}

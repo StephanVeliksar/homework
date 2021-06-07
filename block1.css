@@ -1,0 +1,53 @@
+h1  {
+    font-style: initial;
+    font-family: var(--font-family2);
+}
+p {
+    font-family: var(--font-family) ;
+    font-style: normal;
+}
+a {
+    text-decoration: none;
+}
+.content {
+    width:var(--content-width);
+    margin: 100px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.content-block{
+    display: flex;
+    margin: 0 auto;
+
+}
+
+.right-block,
+.left-block {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.right-block {
+    display: flex;
+    flex-wrap: wrap;
+}
+.small-block{
+    width: 50%;
+    margin: 0 auto;
+}
+h2, h3 {
+    text-align: left;
+    font-family: var(--font-family);
+}
+h2 {
+    font-style: normal;
+    font-size: xx-large;
+}
+button {
+    padding: 15px 70px;
+    border-radius: 8px;
+    border: 2px solid red;
+    color: red;
+    background: transparent;
+}
